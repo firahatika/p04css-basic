@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+
+    <link rel="stylesheet" type="text/css" href="firahatika.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <style>
+        body {
+         background-color: rgb(233, 255, 246);
+        }
+      </style>
+
+
+    <div class="kop">
+        <img src="kop.png" width= "100%" alt="">
+        <div class="kop-content">
+            <h1> Folmulir Pendaftaran Mahasiswa Baru</h1>
+            <div class="PENGISIAN">
+                <p class = "aturan">PETUNJUK PENGISIAN</p>
+                <ol class="aturan">
+                    <li>Isilah data dengan cermat, teliti dan benar</li>
+                    <li>Isilah Menggunakan Huruf Kapital</li>
+                    <li>
+                        Salah penulisan pada pengisian formulir ini akan berakibat kesalahan pada penulisan data Saudara pada ijazah
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+
+
+    <form action="" method="post">
+    <fieldset class="rectangle01">
+        <table>
+            <tr>
+                <td>Nomor Pendaftaran</td>
+                <td><input type="text" </td>
+            </tr>
+
+            <tr>
+                <td>Nama Lengkap</td>
+                <td><input type="text" </td>
+            </tr>
+
+            <tr>
+                <td>Tanggal Ujian</td>
+                <td><input type="date" </td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td><input type="radio" name="jenis k">Laki laki
+                <td><input type="radio" name="jenis k">Perempuan
+                 </td>
+            </tr>
+
+            <tr>
+                <td>PROGRAM STUDI</td>
+                <td><select>
+                    <option>**SELECT JURUSAN**</option>
+                    <OPTION>Manajemen Informatika (D3)</OPTION>
+                    <OPTION>Komputerisasi Akuntansi (D3)</OPTION>
+                    <OPTION>Teknik Informatika (S1)</OPTION>
+                    <OPTION>Rekayasa Perangkat Lunak (S1)</OPTION>
+                    <OPTION>Sistem Informasi (S1)</OPTION>
+
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>Waktu kuliah</td>
+                <td><input type="radio" name="PAYMENT">Pagi
+                <td><input type="radio" name="PAYMENT">Malam
+                </td>
+            </tr>
+
+            <tr>
+                <td>Size Almamater</td>
+                <td><select>
+                    <option>Size</option>
+                    <option>S (39 x 55)</option>
+                    <option>M (42 x 58)</option>
+                    <option>L (45 x 61)</option>
+                    <option>XL (48 x 64)</option>
+                    <option>XXL (51 x 67)</option>
+                    <option>XXXL (64 x 70)</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Sistem Pembayaran</td>
+                <td><input type="radio" name="PAYMENT">Angsuran
+                <td><input type="radio" name="PAYMENT">Tunai
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+   
+
+
+    <fieldset class="rectangle02">
+       <legend>Data Pribadi</legend>
+       <table>
+
+        <p>
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+        </p>
+
+        <tr>
+            <td>Tempat</td>
+            <td><input type="text" </td>
+        </tr>
+
+        <tr>
+            <td>Tanggal lahir</td>
+            <td><input type="date" </td>
+        </tr>
+
+        <tr>
+            <td>Alamat Lengkap</td>
+            <td><input type="text" </td>
+        </tr>
+
+        <tr>
+            <td>RT/RW</td>
+            <td><input type="text" </td>
+        </tr>
+        <tr>
+            <td>Kota</td>
+            <td><input type="text" </td>
+        </tr>
+        <tr>
+            <td>Kode pos</td>
+            <td><input type="text" </td>
+        </tr>
+        <tr>
+            <td>Nomor HP</td>
+            <td><input type="text" </td>
+        </tr>
+
+        <tr>
+            <td>Kewarganegaraan</td>
+            <td><input type="radio" name="Kewarganegaraan">WNI
+            <td><input type="radio" name="Kewarganegaraan">WNA
+             </td>
+        </tr>
+
+        <tr>
+            <td>Nama Orang Tua</td>
+            <td><input type="text" </td>
+        </tr>
+        </table>
+    </fieldset>
+
+
+    <fieldset class="rectangle03">
+        <legend>Pendidikan</legend>
+        <table>
+
+            <p>
+                <label>Pendidikan Terakhir:</label>
+                <select name="pendidikan">
+                    <option value="SMA">SMA</option>
+                    <option value="SMK">SMK</option>
+                    <option value="MA">MA</option>
+                </select>
+            </p>
+
+            <tr>
+                <td>Nama Sekolah</td>
+                <td><input type="text" </td>
+            </tr>
+
+            <tr>
+                <td>Rata Rata Nilai Raport kelas 12</td>
+                <td><input type="text" </td>
+            </tr>
+        </table>
+    </fieldset>
+
+
+<br>
+    <table align="right">
+        <tr>
+            <td>Cirebon, <input type="date" name="tanggalsekarang"></td>
+        </tr>
+    </table>
+
+          
+<fieldset>
+       <input type="reset" value="Reset">
+       <input type="submit" value="Kirim">
+    </fieldset>
+    </form>
+    </body>
+    </html>
+

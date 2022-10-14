@@ -1,0 +1,22 @@
+* {
+    padding:2px;
+    margin:7px;
+    font-family: 'Quicksand', sans-serif;
+    color:  #090507;
+}
+
+.PENGISIAN{
+    font-weight: bold;
+}
+
+.rectangle01 { 
+    background-color: rgb(233, 234, 255);
+}
+
+.rectangle02 { 
+    background-color: rgb(233, 234, 255);
+}
+
+.rectangle03 { 
+    background-color: rgb(233, 234, 255);
+}
